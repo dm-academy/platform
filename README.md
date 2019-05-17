@@ -20,6 +20,7 @@ A developed platform to deploy microservices to a Kubernetes cluster);
 - Issue:  JX needed a patch before it started working. (Known issue published within JX)
 - Current Status: Created successful pipeline, tested with SVC 3 team.  Future enhancements in progress
 
+
 ## How to Use
 Clone the repository in your home directory<br />
 * After that run the startup.sh script to install all dependency<br />
@@ -40,8 +41,13 @@ Clone the repository in your home directory<br />
         terraform plan
         terraform apply
 ```
+
 * Once that has completed, copy the gcloud output form terrafom to connect to your k8s cluster
 * then run jx install to install jenkins-x to your k8s cluster
+* then run jx install to install jenkins-x to your k8s cluster
+
+
 
 ## Diagram
 ![JenkinsX Architecture Source: https://jenkins-x.io/architecture/diagram/](https://jenkins-x.io/images/ArchitectureStaticJenkins.png)
+
