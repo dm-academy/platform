@@ -48,8 +48,7 @@ Clone the repository in your home directory<br />
 ```
 
 * Once that has completed, copy the gcloud output form terrafom to connect to your k8s cluster
-* then run jx install to install jenkins-x to your k8s cluster
-* then run jx install to install jenkins-x to your k8s cluster
+* then run ```jx install``` to install jenkins-x to your k8s cluster
 
 
 
