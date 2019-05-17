@@ -22,6 +22,7 @@ A developed platform to deploy microservices to a Kubernetes cluster);
 
 
 ## How to Use
+Start up a vagrant vm using the Vagrantfile
 Clone the repository in your home directory<br />
 * After that run the startup.sh script to install all dependency<br />
     * This should install terraform and jenkins-x<br />
