@@ -23,8 +23,8 @@ A developed platform to deploy microservices to a Kubernetes cluster);
 
 ## How to Use
 Dependency on your local machine:
-* Virtualbox
-* Vagrant
+** Virtualbox
+** Vagrant
 Start up a vagrant vm using the Vagrantfile
 Clone the repository in your home directory<br />
 * After that run the startup.sh script to install all dependency<br />
