@@ -57,3 +57,23 @@ Run the following command<br />
 ## Diagram
 ![JenkinsX Architecture Source: https://jenkins-x.io/architecture/diagram/](https://files.slack.com/files-pri/T0ANYHRH9-FJM08E9EV/kubernets.png)
 
+
+## JX Install Instruction
+When asked to install dependency, allow for helm to be install
+Using the arrows install ```gke``` as provider
+Use github credentials for user name and email address 
+Ingress Controller: ```yes```
+Domain Name [enter] --We don't have a domain name
+github user name: ```<Enter your github username>```
+You will be asked to generate 1 of 2 GitHub Token
+	Copy link
+	Give it a name
+	Then generate the token 
+You will be asked to generate 2 of 2 GitHub Token
+	Copy link
+	Give it a name
+	Then generate the token 
+Select Serverless Installation
+Select Kubernetes Workload with GitOps Promotion
+
+
