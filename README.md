@@ -22,7 +22,14 @@ A developed platform to deploy microservices to a Kubernetes cluster);
 
 
 ## How to Use
+Dependency on your local machine:
+* Virtualbox
+* Vagrant
+
+Start up a vagrant vm using the Vagrantfile
 Clone the repository in your home directory<br />
+Run the following command<br />
+```./platform/startup.sh```
 * After that run the startup.sh script to install all dependency<br />
     * This should install terraform and jenkins-x<br />
 * create a credentials directory in the platform directory and touch a new credentials.json file in the credentials directory<br />
@@ -43,11 +50,30 @@ Clone the repository in your home directory<br />
 ```
 
 * Once that has completed, copy the gcloud output form terrafom to connect to your k8s cluster
-* then run jx install to install jenkins-x to your k8s cluster
-* then run jx install to install jenkins-x to your k8s cluster
+* then run ```jx install``` to install jenkins-x to your k8s cluster
 
 
 
 ## Diagram
-![JenkinsX Architecture Source: https://jenkins-x.io/architecture/diagram/](https://jenkins-x.io/images/ArchitectureStaticJenkins.png)
+![JenkinsX Architecture Source: https://jenkins-x.io/architecture/diagram/](https://files.slack.com/files-pri/T0ANYHRH9-FJM08E9EV/kubernets.png)
+
+
+## JX Install Instruction
+* When asked to install dependency, allow for helm to be install
+* Using the arrows install ```gke``` as provider
+* Use github credentials for user name and email address 
+* Ingress Controller: ```yes```
+* Domain Name [enter] --We don't have a domain name
+* github user name: ```<Enter your github username>```
+* You will be asked to generate 1 of 2 GitHub Token
+	* Copy link
+	* Give it a name
+	* Then generate the token 
+* You will be asked to generate 2 of 2 GitHub Token
+	* Copy link
+	* Give it a name
+	* Then generate the token 
+* Select Serverless Installation
+* Select Kubernetes Workload with GitOps Promotion
+
 
