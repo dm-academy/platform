@@ -55,5 +55,5 @@ Run the following command<br />
 
 
 ## Diagram
-![JenkinsX Architecture Source: https://jenkins-x.io/architecture/diagram/](https://jenkins-x.io/images/ArchitectureStaticJenkins.png)
+![JenkinsX Architecture Source: https://jenkins-x.io/architecture/diagram/](https://files.slack.com/files-pri/T0ANYHRH9-FJM08E9EV/kubernets.png)
 
