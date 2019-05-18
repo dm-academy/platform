@@ -28,6 +28,8 @@ Dependency on your local machine:
 
 Start up a vagrant vm using the Vagrantfile
 Clone the repository in your home directory<br />
+Run the following command
+```./platform/startup.sh```
 * After that run the startup.sh script to install all dependency<br />
     * This should install terraform and jenkins-x<br />
 * create a credentials directory in the platform directory and touch a new credentials.json file in the credentials directory<br />
